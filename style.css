@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Amiko|Arima+Madurai|Farsan|Lalezar|Mogra|Rakkas|Rasa|Shrikhand|Suez+One|Yatra+One');
 
 h5 {
-    color: rgb(255, 225, 58);
+    color: rgb(255, 243, 97);
 }
 
 body {
-    background-color: #000000;
+    background-color: #3e3d3b;
     font-family: 'Amiko', sans-serif;
 }
 
 #col1 {
-    color: rgb(58, 181, 217);
+    color: rgb(85, 217, 255);
     text-align: center;
 }
 
@@ -25,7 +25,7 @@ body {
 }
 
 #col1 {
-    background-color: #012b4a;
+    background-color: #183262;
 }
 
 .column {
