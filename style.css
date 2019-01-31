@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Amiko|Arima+Madurai|Farsan|Lalezar|Mogra|Rakkas|Rasa|Shrikhand|Suez+One|Yatra+One');
+
+h5 {
+    color: rgb(255, 225, 58);
+}
+
+body {
+    background-color: #000000;
+    font-family: 'Amiko', sans-serif;
+}
+
+#col1 {
+    color: rgb(58, 181, 217);
+    text-align: center;
+}
+
+
+
+#midcol {
+    color: rgb(58, 181, 217);
+}
+
+#pic {
+    border-radius: 100%;
+}
+
+#col1 {
+    background-color: #012b4a;
+}
+
+.column {
+    float: left;
+}
+
+.left {
+    width: 25%;
+}
+
+.middle {
+    width: 50%;
+}
+
+#col2 {
+    color: rgb(213, 218, 221);
+}
+
+hr {
+    display: block;
+    height: 2px;
+    border-top: 1px solid #ffffff;
+    margin: 1em 0;
+    padding: 0;
+}
