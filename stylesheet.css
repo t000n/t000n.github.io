@@ -1,67 +1,142 @@
-/*background picture*/
-body, html {
-  height: 100%;
+
+
+* {
+	margin: 0;
+	padding: 0;
 }
 
-.bg { 
-  /* The image used */
-  background-image: url("img_girl.jpg");
-
-  /* Full height */
-  height: 100%; 
-
-  /* Full width */
-  width: 33.33%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.wrapper {
+	width: 100%;
+	margin: auto;
 }
 
-#col1 {
-	background-image: : "pic1.jpg";
+header {
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(pic1.jpg);
+	height: 100vh;
+	~webkit-background-size:cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+
+.nav-area{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li{
+	display: inline-block;
+}
+.nav-area le a{
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 14px;
+}
+.nav-area li a:hover{
+	background: #fff;
+	color: #333;
+}
+.logo img{
+	width:100px;
+	float: left;
+	height: auto;
+}
+
+
+/*left button*/
+/*left button*/
+#left {
+	position: absolute;
+	width: 600px;
+	height:300px;
+	margin: 20% 30%;
+	text-align: left;
+	align-content: left;
+}
+#left h1{
+	text-align: left;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+.welcome-text a{
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+}
+.welcome-text a:hover{
+	background: #fff;
+	color: #333;
+}
+
+
+#center {
+	position: absolute;
+	width: 600px;
+	height:300px;
+	margin: 20% 30%;
+	text-align: center;
+}
+#center h1{
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+.welcome-text a{
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+}
+.welcome-text a:hover{
+	background: #fff;
+	color: #333;
 }
 
 
 
-/* hover over box */
-.container {
-  position: relative;
-  width: 100%;
+#right {
+	position: absolute;
+	width: 600px;
+	height:300px;
+	margin: 20% 30%;
+	text-align: right;
+}
+#right h1{
+	text-align: right;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+.welcome-text a{
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+}
+.welcome-text a:hover{
+	background: #fff;
+	color: #333;
 }
 
-.bg {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
 
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
 
-.container:hover .bg {
-  opacity: 0.3;
-}
 
-.container:hover .middle {
-  opacity: 1;
-}
 
-.text {
-  background-color: #4CAF50;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}
+
+
+
+
